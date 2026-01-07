@@ -5,6 +5,10 @@ from datetime import datetime
 from tensorflow.keras.models import load_model
 import mediapipe as mp
 
+import warnings
+warnings.filterwarnings("ignore")
+
+
 # Define Colors
 RED = (0, 0, 255)  # Red for instructions
 
